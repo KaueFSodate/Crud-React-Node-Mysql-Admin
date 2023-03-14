@@ -1,0 +1,77 @@
+.Principal{
+    background-color: #153243;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 3 auto;
+    padding: 15px;
+}
+
+.Principal th{
+    color: azure;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.Principal td{
+    color: azure;
+    padding: 8px;
+}
+
+button{
+    border-radius: 10px;
+    border-width: 1px;
+    width: 75px;
+    height: 30px;
+    margin: 5px;
+    background-color: #E7ECEF;
+}
+
+button:hover{
+    background-color: #E7ECEF;
+    width: 80px;
+    height: 35px;
+    transition: 0.3s;
+    border-width: 1px;
+}
+
+.deletar{
+    background-color: #E7ECEF
+   
+}
+
+.deletar:hover{
+    background-color: #B20D30;
+    transition: 0.4s;
+}
+
+.Form{
+    background-color: #153243;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 55vh;
+}
+
+.Form label{
+    color: azure;
+    margin: 10px;
+}
+
+.Form button{
+    margin: 20px;
+    width: 110px;
+}
+
+.Form input{
+    border-radius: 10px;
+    width: 180px;
+    height: 25px;
+}
